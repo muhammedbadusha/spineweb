@@ -1,4 +1,4 @@
-*{margin: 0%;
+*{margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -34,4 +34,118 @@
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+/* service section */
+.service-card{
+    width: 896px;
+    height: 392px;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.card-item{
+    width: 448px;
+    height: 196px;
+    
+
+}
+.card-item1 {
+    
+    background: #8e2121;
+}
+.card-item2 {
+   
+    background: #0ca145;
+}
+.card-item3 {
+    
+    background: #9c0467;
+}
+.card-item4 {
+    
+    background: #4d9500;
+}
+.icon{
+    width: 102px;
+    height: 102px;
+    background-color: aliceblue;
+    border-radius: 200px;
+    margin: 25px auto 5px auto;
+}
+.card-item, h4 {
+    text-align: center;
+}
+
+/* portfolio section */
+.p-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/Servicesbg.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio{
+    /* background-color:rgb(253, 133, 133); */
+    
+    
+    height: 783px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding-left: 60px;
+}
+.p-heading{
+    margin-left: 65px;
+}
+.project-content{
+    /* width: 1025px; */
+    /* height: 310px; */
+    background-color: rgb(40, 3, 99);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    
+}
+.project-item{
+    background-color: rgb(107, 36, 36);
+    width: 160px;
+    height: 120px;
+    margin: 15px 15px ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.p-icon{
+    width: 66px;
+    height: 66px;
+    background-color: aqua;
+    border-radius: 100px;
+    margin: auto;
+}
+.p-btn-container{
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: baseline; */
+}
+.p-button{
+    color: white;
+    width: 125px;
+    height: 290px;
+    background-color: #28292957;
+    border-left: 1px solid white;
+}
+.btn-fram{
+    height: 441px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-bottom: 12px;
 }
